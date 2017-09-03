@@ -1,0 +1,10 @@
+{
+  "admin": {
+    "Password": "SecretPwd_123",
+    "email": "admin@acme.corp"
+  },
+  "user": {
+    "Password": "SecretPwd_123",
+    "email": "user@acme.corp"
+  }
+}

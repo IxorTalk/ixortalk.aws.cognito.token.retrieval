@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "UserPoolId": "eu-central-1_xxxxxx",
+    "ClientId": "xxxxxxxxxxxxxx",
+    "IdentityPoolId": "eu-central-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "AWSRegion": "eu-central-1"
+  },
+  "test": {
+    "UserPoolId": "eu-central-1_xxxxxx",
+    "ClientId": "xxxxxxxxxxxxxx",
+    "IdentityPoolId": "eu-central-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "AWSRegion": "eu-central-1"
+  },
+  "prod": {
+    "UserPoolId": "eu-central-1_xxxxxx",
+    "ClientId": "xxxxxxxxxxxxxx",
+    "IdentityPoolId": "eu-central-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "AWSRegion": "eu-central-1"
+  }
+}
