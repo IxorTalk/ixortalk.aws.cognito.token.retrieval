@@ -1,6 +1,6 @@
 {
   "name": "@ixor/aws.cognito.token.retrieval",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple Cognito client for retrieving JWT tokens from a cognito login",
   "main": "index.js",
   "scripts": {
