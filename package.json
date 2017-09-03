@@ -13,7 +13,7 @@
   "author": "Davy De Waele <ddewaele@gmail.com> (https://github.com/ddewaele/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ddewaele/web-gpio-react.git"
+    "url": "https://github.com/IxorTalk/ixortalk.aws.cognito.token.retrieval.git"
   },
   "license": "MIT",
   "devDependencies": {
