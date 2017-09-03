@@ -19,7 +19,7 @@ program
 
 
 
-console.log(fs.readFileSync('resources/banner.txt', 'utf8'));
+console.log(fs.readFileSync(__dirname + '/resources/banner.txt', 'utf8'));
 
 var awsEnvironments = {};
 
