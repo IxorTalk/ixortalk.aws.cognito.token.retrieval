@@ -36,7 +36,7 @@ try {
     var fileContents = fs.readFileSync(os.homedir() + '/.ixortalk.aws.cognito/users.json', 'utf8')
     credentialList = JSON.parse(fileContents);
 } catch (err) {
-    console.log ("No users file found in " + os.homedir() + "/.ixortalk.a   ws.cognito/");
+    console.log ("No users file found in " + os.homedir() + "/.ixortalk.aws.cognito/");
     program.help()
 }
 
@@ -153,9 +153,10 @@ cognitoUser.authenticateUser(authenticationDetails, {
 
     newPasswordRequired: function(userAttributes, requiredAttributes) {
 
-        cognitoUser.completeNewPasswordChallenge(credentials.Password,  {email: userAttributes.email}, {
+        cognitoUser.completeNewPasswordChallenge(credentials.Password,  {}, {
 
                 onSuccess: function (result) {
+                    console.log("New password challenge confirmed, re-executing will provide a token.")
                 },
 
                 onFailure: function (error) {
